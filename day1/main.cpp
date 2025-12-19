@@ -101,6 +101,35 @@ int main(){
     cout <<"sub id :"<< (b-a) <<endl ;
 
 
+    cout<<"type casting :"<<(5/(double)2)<< endl;
+
+
+
+// relationsal (equal)
+
+
+    cout<<"is 5 is equal to '5' :"<<(5=='5')<<endl;
+
+
+// logical (|| , && , !) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	return 0;
 }
