@@ -90,13 +90,13 @@ int main()
 
 	// uranary operator
 
-	int a = 5;
+	// int a = 5;
 
-	int b = a++;
-	int c = ++a;
+	// int b = a++;
+	// int c = ++a;
 
-	cout << "b= a++ :" << b << endl;
-	cout << "c= ++a :" << c << endl;
+	// cout << "b= a++ :" << b << endl;
+	// cout << "c= ++a :" << c << endl;
 
 	return 0;
 }
