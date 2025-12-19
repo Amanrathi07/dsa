@@ -25,18 +25,71 @@ int main(){
 
 
 
-//    variables
-//   int  , char , float , bool , double  
+// //    variables
+// //   int  , char , float , bool , double  
 	
-	char fullname ='a' ;
-	int age = 25 ;  //integer
+// 	char fullname ='a' ;  // a is changed to its askai value then to binary  and stored in memory by 
+// 	int age = 25 ;  //integer
+// 	float price = 5.99f ;// for desimal value and f is important 	
+// 	bool  isTrue = true ; // true to 1 and false to 0 
+// 	double numb = 1000.99 ;
+	
+// 	cout<<fullname<<endl;
+// 	cout<<age<<endl;
 
-	cout<<fullname<<endl;
-	cout<<age<<endl;
+// // checkking the size of a variable 
 
-// checkking the size of a variable 
+// 	cout<<"size of age in Byts : "<<sizeof(age)<<endl;
+	
 
-	cout<<"size of age in Byts : "<<sizeof(age)<<endl;
+
+ // type casting  
+ //  impleset type conversi;on  : when we change data from small dt to large . ex int to float 
+ //
+ //
+ //  explicit type casting : when user force a type change  mainly from large to small
+
+// //implset typecasting 
+
+// 	char str = 'a';
+
+// 	int strValue = str ;
+
+// 	cout<<strValue<<endl ;
+
+// // explicit
+
+// 	double price = 1000.99 ;
+
+// 	int newPrice = (int)price ;
+
+// 	cout<<newPrice <<endl ;
+	
+
+
+
+
+
+
+
+
+
+// inputs
+
+
+  int age ;  // currentaly have a garbage value 
+
+  cout << "enter the age : ";
+  cin>> age ;
+
+  cout <<"you age is :" << age <<endl ;
+
+  
+
+
+
+
+
 	return 0;
 }
 
