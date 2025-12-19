@@ -74,19 +74,31 @@ int main(){
 
 
 
-// inputs
+// // inputs
 
 
-  int age ;  // currentaly have a garbage value 
+//   int age ;  // currentaly have a garbage value 
 
-  cout << "enter the age : ";
-  cin>> age ;
+//   cout << "enter the age : ";
+//   cin>> age ;
 
-  cout <<"you age is :" << age <<endl ;
+//   cout <<"you age is :" << age <<endl ;
 
   
 
+//operators 
 
+// i   arithmetic 
+// ii  relationsl 
+// iii logical	
+
+    int a=5 ,  b=6 ;
+
+    int sum  = a+b ;
+
+    cout << "sum is :" << sum <<endl ;
+
+    cout <<"sub id :"<< (b-a) <<endl ;
 
 
 
