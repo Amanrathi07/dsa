@@ -98,5 +98,18 @@ int main()
 	// cout << "b= a++ :" << b << endl;
 	// cout << "c= ++a :" << c << endl;
 
+	double a, b;
+
+	cout << "enter the value of a = ";
+	cin >> a;
+
+	cout << "enter the value of b = ";
+	cin >> b;
+
+	cout << "sum :" << (a + b) << endl;
+	cout << "sub :" << (a - b) << endl;
+	cout << "multi :" << (a * b) << endl;
+	cout << "dived :" << (a / b) << endl;
+
 	return 0;
 }
