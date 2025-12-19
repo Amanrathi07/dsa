@@ -25,13 +25,18 @@ int main(){
 
 
 
+//    variables
+//   int  , char , float , bool , double  
 	
-	//variables
+	char fullname ='a' ;
+	int age = 25 ;  //integer
 
-	int age = 25 ;
-
+	cout<<fullname<<endl;
 	cout<<age<<endl;
 
+// checkking the size of a variable 
+
+	cout<<"size of age in Byts : "<<sizeof(age)<<endl;
 	return 0;
 }
 
