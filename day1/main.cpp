@@ -2,25 +2,35 @@
 
 using namespace std;
 
+
+
 int main(){
 
-	//print
+	// //print
 
-	// std::cout<<"hello world"; //std 
-	// cout<<"hello world" ;  // using namespace
+	// std::cout<<"hello "; //std 
+	// cout<<"world , " ;  // using namespace
 
  
-	// line break (to go to next line )
+	// // line break (to go to next line )
 
-	cout<<"hello world"<<endl; //method 1
+	// cout<<"i am using cpp" << endl ; //method 1
 
-	cout <<"hello world \n"; //method 
-
-
-	//same line
-	cout<<"aman "<<"kumer "<<"rathi \n";
+	// cout <<" \n"; //method 
 
 
+	// //same line
+	// cout<<"aman "<<"kumer "<<"rathi \n";
+
+
+
+
+	
+	//variables
+
+	int age = 25 ;
+
+	cout<<age<<endl;
 
 	return 0;
 }
