@@ -16,14 +16,32 @@ int main(){
 
   // odd & even 
 
+  // int n ;
+  // cout<<"enter the value of n :"<<endl ;
+  // cin>>n ;
+
+  // if (n%2==0){
+  //   cout<<n<<" is even number "<<endl;
+  // }else{
+  //   cout<<n<<" is odd number "<<endl ;
+  // }
+
+
+  // else if 
+
   int n ;
-  cout<<"enter the value of n :"<<endl ;
+  cout<<"enter your marks :" ;
   cin>>n ;
 
-  if (n%2==0){
-    cout<<n<<" is even number "<<endl;
+  if(n>=90){
+    cout<<"A"<<endl;
+  }else if(n>=80 && n<90){
+    cout<<"b"<<endl;
+
+  }else if (n>=70 && n<80){
+    cout<<"C"<<endl;
   }else{
-    cout<<n<<" is odd number "<<endl ;
+    cout<<"D"<<endl;
   }
 
 
