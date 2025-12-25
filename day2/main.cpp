@@ -28,20 +28,35 @@ int main(){
 
 
   // else if 
+  //
+  // int n ; cout<<"enter your marks :" ;
+  // cin>>n ;
+  // if(n>=90){ 
+  //   cout<<"A"<<endl; 
+  // }else if(n>=80 && n<90){
+  //   cout<<"b"<<endl;
+  // }else if (n>=70 && n<80){
+  //   cout<<"C"<<endl;
+  // }else{
+  //   cout<<"D"<<endl;
+  // }
+  //
+  char ch ;
 
-  int n ;
-  cout<<"enter your marks :" ;
-  cin>>n ;
+  cout<<"enter the ch :";
+  cin>>ch ;
 
-  if(n>=90){
-    cout<<"A"<<endl;
-  }else if(n>=80 && n<90){
-    cout<<"b"<<endl;
-
-  }else if (n>=70 && n<80){
-    cout<<"C"<<endl;
+  // if(ch>='a'&& ch<='z'){
+  //   cout<<"ch is lowercase "<<endl; 
+  // }else{
+  //   cout<<"ch is uppercase "<<endl;
+  // }
+  //
+  
+  if(ch>=65 && ch<=90){
+    cout<<"uppercase"<<endl;
   }else{
-    cout<<"D"<<endl;
+    cout<<"lowercase "<<endl; 
   }
 
 
