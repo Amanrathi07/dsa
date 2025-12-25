@@ -88,24 +88,51 @@ int main(){
 // break  ,  continou ;
  
  // sum of odd number b/w 1 to n  
-int n ;
-int sum = 0 ;
-cout<<"enter the value of n :" ;
+// int n ;
+// int sum = 0 ;
+//
+// int i = 1 ;
+// cout<<"enter the value of n :" ;
+//
+// cin>>n ;
+//
+// // for(int i = 1 ; i<=n ; i++){
+// //   if(i%2!=0){
+// //     cout<<i<<" " ;
+// //     sum+=i ;
+// //   }
+// // }
+//
+// while(i<=n){
+//   if(i%2!=0){
+//     sum+=i;
+//   }
+//   i++;
+// }
+// cout<<"sum is "<<sum <<endl ;
 
-cin>>n ;
+  // prime or compositer 
+ 
+  int n ;
+  bool isPrime = true ;
 
-for(int i = 1 ; i<=n ; i++){
-  if(i%2!=0){
-    cout<<i<<" " ;
-    sum+=i ;
+  cout<<"enter the value of n :" ;
+  cin>>n ; 
+
+  for(int i=2 ; i <n ;i++){
+    if(n%i==0){
+      isPrime = false ;
+      break ;
+    }
   }
-}
-cout<<"sum is "<<sum <<endl ;
-
-
-
-
-
-
+  
+  if(isPrime==true){
+    cout<<"prime"<<endl ;
+  }else{
+    cout<<"composite"<<endl ;
+  }
+  
+  
   return 0;
 }
+
