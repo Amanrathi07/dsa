@@ -68,11 +68,41 @@ int main(){
   //   cout<<i<<endl;
   // }
   //
-int i =1;
-  while (i<=5) {
-   cout<<i<<endl; 
-   i++ ; 
+// int i = 1;
+//   while (i<=5) {
+//    cout<<i<<" " ; 
+//    i++ ; 
+//   }
+//   cout <<endl ; 
+
+// int sum = 0 ;
+//   for(int i = 1 ; i<= 5 ; i++){
+//     sum+=i ;
+//     if(i == 3){
+//       break ;
+//     }
+//   }
+//   cout<<sum<<endl; 
+//
+
+// break  ,  continou ;
+ 
+ // sum of odd number b/w 1 to n  
+int n ;
+int sum = 0 ;
+cout<<"enter the value of n :" ;
+
+cin>>n ;
+
+for(int i = 1 ; i<=n ; i++){
+  if(i%2!=0){
+    cout<<i<<" " ;
+    sum+=i ;
   }
+}
+cout<<"sum is "<<sum <<endl ;
+
+
 
 
 
