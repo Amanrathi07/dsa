@@ -41,23 +41,40 @@ int main(){
   //   cout<<"D"<<endl;
   // }
   //
-  char ch ;
-
-  cout<<"enter the ch :";
-  cin>>ch ;
-
+  // char ch ;
+  //
+  // cout<<"enter the ch :";
+  // cin>>ch ;
+  //
   // if(ch>='a'&& ch<='z'){
   //   cout<<"ch is lowercase "<<endl; 
   // }else{
   //   cout<<"ch is uppercase "<<endl;
   // }
   //
+  //
+  // if(ch>=65 && ch<=90){
+  //   cout<<"uppercase"<<endl;
+  // }else{
+  //   cout<<"lowercase "<<endl; 
+  // }
   
-  if(ch>=65 && ch<=90){
-    cout<<"uppercase"<<endl;
-  }else{
-    cout<<"lowercase "<<endl; 
+
+  //loops
+
+  //for loop   
+    
+  // for(int i = 1 ; i<= 5 ; i++){
+  //   cout<<i<<endl;
+  // }
+  //
+int i =1;
+  while (i<=5) {
+   cout<<i<<endl; 
+   i++ ; 
   }
+
+
 
 
   return 0;
