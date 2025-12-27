@@ -163,16 +163,30 @@ int main()
   // q2 print factorial of a number n 
 
   //q1 
+  // int n ;
+  // int sum = 0  ;
+  // cout<<"enter the value of n :" ;
+  // cin>>n ;
+
+  // for(int i = 1 ; i<=n ; i++){
+  //   if(i%3==0){
+  //     cout << i <<endl ; 
+  //     sum += i ;
+  //   }
+  // }
+  // cout<<sum << endl ;
+
   int n ;
-  int sum = 0  ;
   cout<<"enter the value of n :" ;
   cin>>n ;
 
-  for(int i = 1 ; i<=n ; i++){
-    if(i%3==0){
-      sum += i ;
+  for(int i = 1 ;i*i <= n ; i++){
+    if(n%i==0){
+      cout<<i<<',' ;
     }
   }
-  cout<<sum << endl ;
+  cout<<endl;
+
+
   return 0;
 }
