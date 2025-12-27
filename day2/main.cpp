@@ -1,8 +1,9 @@
-#include<iostream>
-using namespace std ;
+#include <iostream>
+using namespace std;
 
 // if-else
-int main(){
+int main()
+{
 
   // int n  ;
   // cout<<"enter your age : " ;
@@ -14,7 +15,7 @@ int main(){
   //   cout<<"you can't vote"<<endl ;
   // }
 
-  // odd & even 
+  // odd & even
 
   // int n ;
   // cout<<"enter the value of n :"<<endl ;
@@ -26,13 +27,12 @@ int main(){
   //   cout<<n<<" is odd number "<<endl ;
   // }
 
-
-  // else if 
+  // else if
   //
   // int n ; cout<<"enter your marks :" ;
   // cin>>n ;
-  // if(n>=90){ 
-  //   cout<<"A"<<endl; 
+  // if(n>=90){
+  //   cout<<"A"<<endl;
   // }else if(n>=80 && n<90){
   //   cout<<"b"<<endl;
   // }else if (n>=70 && n<80){
@@ -47,7 +47,7 @@ int main(){
   // cin>>ch ;
   //
   // if(ch>='a'&& ch<='z'){
-  //   cout<<"ch is lowercase "<<endl; 
+  //   cout<<"ch is lowercase "<<endl;
   // }else{
   //   cout<<"ch is uppercase "<<endl;
   // }
@@ -56,83 +56,102 @@ int main(){
   // if(ch>=65 && ch<=90){
   //   cout<<"uppercase"<<endl;
   // }else{
-  //   cout<<"lowercase "<<endl; 
+  //   cout<<"lowercase "<<endl;
   // }
-  
 
-  //loops
+  // loops
 
-  //for loop   
-    
+  // for loop
+
   // for(int i = 1 ; i<= 5 ; i++){
   //   cout<<i<<endl;
   // }
   //
-// int i = 1;
-//   while (i<=5) {
-//    cout<<i<<" " ; 
-//    i++ ; 
-//   }
-//   cout <<endl ; 
+  // int i = 1;
+  //   while (i<=5) {
+  //    cout<<i<<" " ;
+  //    i++ ;
+  //   }
+  //   cout <<endl ;
 
-// int sum = 0 ;
-//   for(int i = 1 ; i<= 5 ; i++){
-//     sum+=i ;
-//     if(i == 3){
-//       break ;
-//     }
-//   }
-//   cout<<sum<<endl; 
-//
+  // int sum = 0 ;
+  //   for(int i = 1 ; i<= 5 ; i++){
+  //     sum+=i ;
+  //     if(i == 3){
+  //       break ;
+  //     }
+  //   }
+  //   cout<<sum<<endl;
+  //
 
-// break  ,  continou ;
- 
- // sum of odd number b/w 1 to n  
-// int n ;
-// int sum = 0 ;
-//
-// int i = 1 ;
-// cout<<"enter the value of n :" ;
-//
-// cin>>n ;
-//
-// // for(int i = 1 ; i<=n ; i++){
-// //   if(i%2!=0){
-// //     cout<<i<<" " ;
-// //     sum+=i ;
-// //   }
-// // }
-//
-// while(i<=n){
-//   if(i%2!=0){
-//     sum+=i;
-//   }
-//   i++;
-// }
-// cout<<"sum is "<<sum <<endl ;
+  // break  ,  continou ;
 
-  // prime or compositer 
- 
-  int n ;
-  bool isPrime = true ;
+  // sum of odd number b/w 1 to n
+  // int n ;
+  // int sum = 0 ;
+  //
+  // int i = 1 ;
+  // cout<<"enter the value of n :" ;
+  //
+  // cin>>n ;
+  //
+  // // for(int i = 1 ; i<=n ; i++){
+  // //   if(i%2!=0){
+  // //     cout<<i<<" " ;
+  // //     sum+=i ;
+  // //   }
+  // // }
+  //
+  // while(i<=n){
+  //   if(i%2!=0){
+  //     sum+=i;
+  //   }
+  //   i++;
+  // }
+  // cout<<"sum is "<<sum <<endl ;
 
-  cout<<"enter the value of n :" ;
-  cin>>n ; 
+  // prime or compositer
 
-  for(int i=2 ; i <n ;i++){
-    if(n%i==0){
-      isPrime = false ;
-      break ;
-    }
-  }
-  
-  if(isPrime==true){
-    cout<<"prime"<<endl ;
-  }else{
-    cout<<"composite"<<endl ;
-  }
-  
+  // int n ;
+  // bool isPrime = true ;
+
+  // cout<<"enter the value of n :" ;
+  // cin>>n ;
+
+  // for(int i=2 ; i <n ;i++){
+  //   if(n%i==0){
+  //     isPrime = false ;
+  //     break ;
+  //   }
+  // }
+
+  // if(isPrime==true){
+  //   cout<<"prime"<<endl ;
+  // }else{
+  //   cout<<"composite"<<endl ;
+  // }
+
+  // int n;
+  // bool isPrime = true;
+
+  // cout << "enter the value of n :";
+  // cin >> n;
+
+  // for(int i=2;i*i<=n;i++){
+  //   if(n%i==0){
+  //     isPrime = false ;
+  //     break ;
+  //   }
+  // }
+
+  // if(isPrime==true){
+  //   cout<<"prime"<<endl ;
+  // }else{
+  //   cout<<"composite"<<endl ;
+  // }
+
+//nested loop
+
   
   return 0;
 }
-
