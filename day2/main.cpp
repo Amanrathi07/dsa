@@ -152,11 +152,27 @@ int main()
 
   // nested loop
 
-  for (int i = 0; i <= 4; i++){
-    for (int j = 0; j <= 4; j++){
-      cout<<"*" ;
+  // for (int i = 0; i <= 4; i++){
+  //   for (int j = 0; j <= 4; j++){
+  //     cout<<"*" ;
+  //   }
+  //   cout<<endl ;
+  // }
+
+  // q1 sum of number from 1 to n which are devisable by 3 
+  // q2 print factorial of a number n 
+
+  //q1 
+  int n ;
+  int sum = 0  ;
+  cout<<"enter the value of n :" ;
+  cin>>n ;
+
+  for(int i = 1 ; i<=n ; i++){
+    if(i%3==0){
+      sum += i ;
     }
-    cout<<endl ;
   }
+  cout<<sum << endl ;
   return 0;
 }
