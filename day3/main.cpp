@@ -102,11 +102,45 @@ int main(){
 
 //floyd's triangle pattern
 
-int num = 1 ;
+// int num = 1 ;
 
-for(int i = 0 ; i<4 ;i++){
-  for(int j = 0 ; j<i+1 ; j++){
-    cout<<num++ ;
+// for(int i = 0 ; i<4 ;i++){
+//   for(int j = 0 ; j<i+1 ; j++){
+//     cout<<num++ ;
+//   }
+//   cout<<endl ;
+// }
+
+//------------------------------------------------------------------
+
+// char ch = 'A';
+
+// for(int i = 0 ; i<4 ;i++){
+//   for(int j = 0 ; j<i+1 ; j++){
+//     cout<< ch++<<" " ;
+//   }
+//   cout<<endl ;
+// }
+
+
+// for(int i = 0 ; i<4 ;i++){
+//   char ch = 'A' + i;
+//   for(int j = i+1 ; j>0 ; j--){
+//     cout<<ch-- ;
+//   }
+//   cout<<endl ;
+// }
+
+//------------------------------------------------------------------
+
+//inverted triangle 
+
+for( int i=0 ; i<4 ; i++){
+  for(int j=0 ; j<i ;j++){
+    cout<<" ";
+  }
+  for(int k = 4-i ;k>0 ;k-- ){
+    cout<< i+1 ;
   }
   cout<<endl ;
 }
