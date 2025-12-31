@@ -3,14 +3,21 @@ using namespace std ;
 
 // function 
 
-void printHello(){
+int printHello(){
   cout<<"hello world " << endl ;
+  return 5 ;
 }
 
+int sum(int a,int b){   //pass by value
+  return (a+b);
+}
 
 int main(){
  
-  printHello() ;
+  // int val = printHello() ;
+  // cout<<val<<endl ;
+  cout << sum(5,6)<<endl ;
+
 
   return 0 ; 
 }
