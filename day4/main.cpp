@@ -66,6 +66,28 @@ int binomial(int n , int r){
   return factN/(factR*factNmR) ;
 }
 
+bool primeNum(int num ){
+  bool isPrime = true ;
+
+  for(int i = 2 ; i <num ; i++){
+    if(num % 2==0){
+      isPrime = false ;
+    }
+  }
+  return isPrime ;
+}
+
+void primeNumList(int num ){
+  for( int i =2 ; i<num ; i++){
+    int res = primeNum(i);
+    if(res==1){
+      cout<< i <<"," ; 
+    }
+  }
+  cout<<endl ;
+}
+
+
 int main(){
  
   // int val = printHello() ;
@@ -92,13 +114,32 @@ int main(){
 // ------------------------------------------------------------------------------------------------------
   //calculate nCr binomial coefficient for n & r 
 
-  cout<<binomial(8,2)<<endl ;
+  // cout<<binomial(8,2)<<endl ;
 
 // ------------------------------------------------------------------------------------------------------
 
+      //homework 
+// func to check if a number is a prime or not 
+
+//   int res = primeNum(11);
+//   if(res==1){
+//     cout<<"number is prime "<<endl ;
+//   }else{
+//     cout<<"number is composite "<<endl ;
+//   }
+
+
+
+//----------------
+// function to print all no from 2 to n ;
+  
+// primeNumList(11);
+
+//----------------
+
+
+
+
+
   return 0 ; 
 }
-
-
-
-
