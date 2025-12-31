@@ -87,7 +87,15 @@ void primeNumList(int num ){
   cout<<endl ;
 }
 
-
+int fabnachi(int num ){
+  if (num ==1){
+    return 0 ;
+  }
+  if(num==2){
+    return 1 ;
+  }
+  return fabnachi(num-1)+fabnachi(num-2);
+}
 int main(){
  
   // int val = printHello() ;
@@ -139,7 +147,11 @@ int main(){
 
 
 
+// 0,1,1,2,3,5,8,.... 
 
 
-  return 0 ; 
+
+// cout<<fabnachi(4)<<endl ;
+ 
+return 0 ; 
 }
