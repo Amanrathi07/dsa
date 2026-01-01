@@ -29,6 +29,11 @@ int binToDec(int num){
     return ans ;
 }
 
+void funTry(){
+    cout<<"just git branch try"<<endl ;
+}
+
+
 int main(){
 
     cout<<decToBin(6)<<endl;
