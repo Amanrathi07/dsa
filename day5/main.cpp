@@ -15,10 +15,25 @@ int decToBin(int num){
     return ans ;
 }
 
+int binToDec(int num){
+    int ans = 0 ;
+    int pow = 1 ;
+    while(0<num){
+        int rem = num%10 ;
+        ans +=rem*pow;
+
+        num = num/10 ;
+        pow = pow*2 ;
+
+    }
+    return ans ;
+}
+
 int main(){
 
     cout<<decToBin(6)<<endl;
 
+    cout<<binToDec(110)<<endl ;
 
     return 0 ;
 }
