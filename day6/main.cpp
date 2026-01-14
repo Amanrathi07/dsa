@@ -22,6 +22,21 @@ bool checkTheNumber(int num){
 }
 
 
+int reverseInt(int num ){
+    //  1234 --> 4321 
+    int reverseNum = 0 ;
+    int pow =10 ;
+    while(0<num){
+        reverseNum = reverseNum *10 ;
+        int rem = num % pow ;
+        num = num/pow ;
+        reverseNum +=rem ;
+    }
+
+    return reverseNum ;
+}
+
+
 int main(){
     
 //     // bitwise operators 
@@ -47,12 +62,17 @@ int main(){
 // check the n is power of 2
 
     
-    bool responce = checkTheNumber(12) ;
+    // bool responce = checkTheNumber(12) ;
 
-    if(responce==true){
-        cout<<"num is power of 2"<<endl ;
-    }else{
-        cout<<"num is not power of 2"<<endl ;
-    }
+    // if(responce==true){
+    //     cout<<"num is power of 2"<<endl ;
+    // }else{
+    //     cout<<"num is not power of 2"<<endl ;
+    // }
+
+
+// reverse an integer n .
+
+   cout<< reverseInt(1234)<<endl ;
     return 0 ;
 }
