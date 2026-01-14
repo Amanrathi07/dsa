@@ -3,6 +3,16 @@ using namespace std ;
 
 
 int main(){
-    cout<<"day6"<<endl ;
+    
+    // bitwise operators 
+    // & | ^ 
+
+    cout<<(4 & 5)<<endl ;
+    cout<<(4 & 8)<<endl ;
+
+    cout<<(4 | 5)<<endl ;
+    cout<<(4 | 8)<<endl ;
+
+
     return 0 ;
 }
