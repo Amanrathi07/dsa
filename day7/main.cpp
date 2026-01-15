@@ -7,7 +7,7 @@ int main(){
 
     // creation 
     int marks[5];
-    int newMarks[] ={1,2,3,4,5} ;
+    int newMarks[] ={1,2,3,4,5,43,5,763254,456,} ;
 
     //print an array 
 
@@ -18,18 +18,29 @@ int main(){
 
     // Q > find smallest and largest in array 
 
-    int num = newMarks[0] ;
+// ====================================================================
 
+    int num = newMarks[0] ;
+    int index ;
     for(int i = 0 ;i<size ;i++ ){
-        if(newMarks[i]<num){
-            num = newMarks[i] ;
-        }
-        // if(newMarks[i]>num){
-        //  num = newMarks[i] ;     //for the largest 
+
+        // if(newMarks[i]<num){
+        //     num = newMarks[i] ;
+        //     index = i ;
         // }
+        
+        if(newMarks[i]>num){
+         num = newMarks[i] ;     //for the largest 
+         index = i ;
+        }
     }
 
+// ====================================================================
+
+
+
     cout<<num <<endl ;
+    cout<<index <<endl ;
 
     return 0 ;
 }
