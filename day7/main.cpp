@@ -12,6 +12,14 @@ void changeArr(int arr[],int size){
 
 }
 
+int linearSearch(int arr[] ,int size ,int target){
+    for(int i = 0 ; i<size ; i++){
+        if(arr[i]==target){
+            return i ;
+        }
+    }
+    return -1 ;
+}
 
 int main(){
 // array , first data structure 
@@ -51,16 +59,26 @@ int main(){
 
 // ====================================================================
 
-    // pass by value(primitive) and pass by refrence(non primitive) 
+    // // pass by value(primitive) and pass by refrence(non primitive) 
+    
+    // int marks[] = {1,2,3,4,5} ;
+    // int size = sizeof(marks)/sizeof(int);
+    // changeArr(marks,size) ;
+
+    // for(int i = 0 ; i<5 ; i++){
+    //     cout<<marks[i]<<endl ;
+    // }
+  
+// ====================================================================
+    
+    // linear search 
     
     int marks[] = {1,2,3,4,5} ;
     int size = sizeof(marks)/sizeof(int);
-    changeArr(marks,size) ;
 
-    for(int i = 0 ; i<5 ; i++){
-        cout<<marks[i]<<endl ;
-    }
-   
+    int target = 3 ;
+
+    cout<<linearSearch(marks,size,target)<<endl ;
 
     return 0 ;
 }
