@@ -53,6 +53,36 @@ int mullArr(int arr[],int size){
 
 
 
+int arrMin(int arr[] ,int size ){
+    int minIndex = 0;
+    for(int i = 0 ;i<size ; i++){
+       if(arr[minIndex]>arr[i]){
+        minIndex = i ;
+       }
+    }
+    return minIndex ;
+}
+
+int arrMax(int arr[] ,int size ){
+    int maxIndex = 0;
+    for(int i = 0 ;i<size ; i++){
+       if(arr[maxIndex]<arr[i]){
+        maxIndex = i ;
+       }
+    }
+    return maxIndex ;
+}
+
+void minMaxSwap(int arr[] ,int size){
+    int minIndex = arrMin(arr,size) ;
+    int maxIndex = arrMax(arr,size) ;
+
+
+    swap(arr[minIndex],arr[maxIndex]) ;
+}
+
+
+
 int main(){
 // array , first data structure 
 
@@ -132,9 +162,15 @@ int main(){
     int size = sizeof(arr)/sizeof(int);
 
    
-    cout<<sumArr(arr,size)<<endl ;
+    // cout<<sumArr(arr,size)<<endl ;
   
-    cout<<mullArr(arr,size)<<endl ;
+    // cout<<mullArr(arr,size)<<endl ;
+
+    minMaxSwap(arr,size ) ;
+    
+     for(int i= 0 ;i<size ;i++){
+        cout<<arr[i]<<endl ;
+    }
 
     return 0 ;
 }
