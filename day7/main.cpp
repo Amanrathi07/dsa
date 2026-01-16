@@ -25,12 +25,30 @@ void reverseArr(int arr[],int size){
     
     int start = 0 ;
     int end = size-1 ;
-    while(start<size/2){
+    while(start<end ){   // or start< size/2
         swap(arr[start],arr[end]) ;
         start++ ;
         end-- ;
     }
     
+}
+
+
+
+int sumArr(int arr[],int size){
+    int sum = 0 ;
+    for(int i =0 ; i<size;i++){
+        sum += arr[i] ;
+    }
+    return sum ;
+}   
+
+int mullArr(int arr[],int size){
+  int mull = 1 ;
+    for(int i =0 ; i<size;i++){
+        mull *=arr[i] ;
+    }
+    return mull ;
 }
 
 
@@ -94,18 +112,30 @@ int main(){
 
     // cout<<linearSearch(marks,size,target)<<endl ;
 
-// ====================================================================
+// ===================================================================
 
     // reverse an array
 
-    int arr[] ={1,2,3,4,5,6,7} ;
+    // int arr[] ={1,2,3,4,5,6,7} ;
+    // int size = sizeof(arr)/sizeof(int);
+
+    // reverseArr(arr,size);
+
+    // for(int i= 0 ;i<size ;i++){
+    //     cout<<arr[i]<<endl ;
+    // }
+
+// ===================================================================
+
+
+    int arr[] ={1,2,3,4} ;
     int size = sizeof(arr)/sizeof(int);
 
-    reverseArr(arr,size);
+   
+    cout<<sumArr(arr,size)<<endl ;
+  
+    cout<<mullArr(arr,size)<<endl ;
 
-    for(int i= 0 ;i<size ;i++){
-        cout<<arr[i]<<endl ;
-    }
     return 0 ;
 }
 
