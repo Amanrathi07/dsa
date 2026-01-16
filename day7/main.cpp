@@ -83,6 +83,23 @@ void minMaxSwap(int arr[] ,int size){
 
 
 
+void uniqueValue(int arr[] ,int size ){
+    for(int i=0 ; i<size ; i++){
+        bool isUnique = true ;
+        for(int j=0 ; j<size ;j++){
+             if(i != j && arr[i] == arr[j]){
+                isUnique = false;
+                break;
+            }
+        }
+        if(isUnique){
+            cout<<arr[i]<<endl ;
+        }
+    }
+}
+
+
+
 int main(){
 // array , first data structure 
 
@@ -158,7 +175,7 @@ int main(){
 // ===================================================================
 
 
-    int arr[] ={1,2,3,4} ;
+    int arr[] ={1,2,3,4,1} ;
     int size = sizeof(arr)/sizeof(int);
 
    
@@ -166,12 +183,12 @@ int main(){
   
     // cout<<mullArr(arr,size)<<endl ;
 
-    minMaxSwap(arr,size ) ;
+    // minMaxSwap(arr,size ) ;
+
+    uniqueValue(arr, size) ;
+
     
-     for(int i= 0 ;i<size ;i++){
-        cout<<arr[i]<<endl ;
-    }
+    
 
     return 0 ;
 }
-
