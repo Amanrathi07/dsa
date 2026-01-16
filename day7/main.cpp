@@ -21,6 +21,20 @@ int linearSearch(int arr[] ,int size ,int target){
     return -1 ;
 }
 
+void reverseArr(int arr[],int size){
+    
+    int start = 0 ;
+    int end = size-1 ;
+    while(start<size/2){
+        swap(arr[start],arr[end]) ;
+        start++ ;
+        end-- ;
+    }
+    
+}
+
+
+
 int main(){
 // array , first data structure 
 
@@ -82,8 +96,16 @@ int main(){
 
 // ====================================================================
 
+    // reverse an array
 
+    int arr[] ={1,2,3,4,5,6,7} ;
+    int size = sizeof(arr)/sizeof(int);
 
+    reverseArr(arr,size);
+
+    for(int i= 0 ;i<size ;i++){
+        cout<<arr[i]<<endl ;
+    }
     return 0 ;
 }
 
