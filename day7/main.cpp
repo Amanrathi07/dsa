@@ -73,12 +73,16 @@ int main(){
     
     // linear search 
     
-    int marks[] = {1,2,3,4,5} ;
-    int size = sizeof(marks)/sizeof(int);
+    // int marks[] = {1,2,3,4,5} ;
+    // int size = sizeof(marks)/sizeof(int);
 
-    int target = 3 ;
+    // int target = 3 ;
 
-    cout<<linearSearch(marks,size,target)<<endl ;
+    // cout<<linearSearch(marks,size,target)<<endl ;
+
+// ====================================================================
+
+
 
     return 0 ;
 }
