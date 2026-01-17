@@ -15,7 +15,7 @@ int main()
     vector<char> vec1 = {'a', 'b', 'c', 'd'};
     // vector<int>vec2(x,y) ;   //x is size of vector ,y is value at eact index
 
-    //====================================================================
+//====================================================================
 
     // for each loop
 
@@ -26,10 +26,18 @@ int main()
 
     cout << "size = " << vec1.size() << endl;
 
-    //====================================================================
+//======================================================================
 
-    vec1.push_back('e');
-    cout << "size after push back = " << vec1.size() << endl;
+    // vec1.push_back('e');
+    // cout << "size after push back = " << vec1.size() << endl;
+
+//====================================================================
+
+    // pop_back 
+
+    vec1.pop_back() ;
+
+    cout << "size after pop back= " << vec1.size() << endl;
 
     return 0;
 }
