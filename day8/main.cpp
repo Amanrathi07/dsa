@@ -34,10 +34,24 @@ int main()
 //====================================================================
 
     // pop_back 
+    // vec1.pop_back() ;
+    // cout << "size after pop back= " << vec1.size() << endl;
 
-    vec1.pop_back() ;
+//====================================================================
+    //front
 
-    cout << "size after pop back= " << vec1.size() << endl;
+    cout<<"vector at front : "<<vec1.front()<<endl ;
+    
+    //back
+    
+    cout<<"vector at back : "<<vec1.back()<<endl ;
+
+//====================================================================
+
+    // at (index at num)
+
+    cout<<vec1.at(2)<<endl ;
+
 
     return 0;
 }
