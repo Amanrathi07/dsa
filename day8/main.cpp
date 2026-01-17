@@ -11,10 +11,17 @@ int main(){
     // creation 
 
     vector<int>vec ; //0
-    vector<int>vec1 = {1,2,3} ;
+    vector<char>vec1 = {'a','b','c','d'} ;
     // vector<int>vec2(x,y) ;   //x is size of vector ,y is value at eact index  
 
-    cout<<vec1[0]<<endl ;
+//====================================================================
+
+    // for each loop 
+
+    for(char i:vec1){    // i is value 
+        cout<<i<<endl ;
+    }
+
 
     return 0 ;
 }
