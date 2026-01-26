@@ -175,8 +175,8 @@ int main(){
 // ===================================================================
 
 
-    int arr[] ={1,2,3,4,1} ;
-    int size = sizeof(arr)/sizeof(int);
+    // int arr[] ={1,2,3,4,1} ;
+    // int size = sizeof(arr)/sizeof(int);
 
    
     // cout<<sumArr(arr,size)<<endl ;
@@ -185,7 +185,12 @@ int main(){
 
     // minMaxSwap(arr,size ) ;
 
-    uniqueValue(arr, size) ;
+    // uniqueValue(arr, size) ;
+
+// ===================================================================
+    
+    int arr[] ={1,2,3,4} ;
+    int arr2[] ={1,2,6,7} ;
 
     
     
