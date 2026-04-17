@@ -1,8 +1,8 @@
 #include<iostream>
-using namespace std ;
+using namespace std;
 
 int main(){
- cout <<"working"<<endl ;
+ cout <<"working"<<endl;
 
 return 0;
 }
