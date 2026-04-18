@@ -6,6 +6,6 @@ int main(){
  int num = 10 ;
 
  int* prt = &num;  // & gives the address of num
- cout <<< prt << endl; // print num addres
+ cout << prt << endl; // print num addres
 return 0;
 }
