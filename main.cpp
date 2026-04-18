@@ -7,5 +7,9 @@ int main(){
 
  int* prt = &num;  // & gives the address of num
  cout << prt << endl; // print num addres
+
+ // derefrensing 
+
+ cout <<*prt << endl ; // print 10 
 return 0;
 }
