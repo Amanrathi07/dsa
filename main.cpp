@@ -13,3 +13,6 @@ int main(){
  cout <<*prt << endl ; // print 10 
 return 0;
 }
+
+
+// wedding 
